@@ -11,8 +11,7 @@ import glob
 
 # region globals
 # TODO: update the bucket name with the CDK output, which should be named "ai-tutor-uploads-<your account id>"
-# bucket = "REPLACE THIS WITH THE BUCKET FROM THE CDK DEPLOYMENT"
-bucket = "ai-tutor-uploads-116981763324"  
+bucket = "REPLACE THIS WITH THE BUCKET FROM THE CDK DEPLOYMENT"
 
 session_vars = {
     'stage': 'init',
