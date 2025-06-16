@@ -1,0 +1,20 @@
+*.swp
+package-lock.json
+__pycache__
+.pytest_cache
+.venv
+*.egg-info
+.DS_Store
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# testing
+test.ipynb
+test.py
+tests/
+temp/
+lambdas/create_kb.py
+bedrock_kb.py
+
